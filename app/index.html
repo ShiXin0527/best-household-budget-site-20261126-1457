@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MapleHome Budget — Household Budget Planner</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%230e7a4d'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">MapleHome Budget</a>
+  <nav class="mainnav" aria-label="Sections">
+    <a href="#/" data-nav="home">Dashboard</a>
+    <a href="#/transactions" data-nav="transactions">Transactions</a>
+    <a href="#/budgets" data-nav="budgets">Budgets</a>
+    <a href="#/goals" data-nav="goals">Goals</a>
+  </nav>
+  <span class="household">The Rivera household · family of four</span>
+</header>
+<main id="view" aria-live="polite"></main>
+<footer class="foot">
+  <p>MapleHome Budget is an original household planner. Your entries are stored only in this
+  browser (localStorage) — nothing leaves the device, no account, no network request.</p>
+</footer>
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
